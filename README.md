@@ -19,13 +19,15 @@
 - [Lista 16 - CSS - Página web com Flexbox](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Exercicios/Lista%2016/index.html)
 - [Lista 17 - CSS - Lista sobre Layout com Flexbox](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Exercicios/Lista%2017/index.html)
 
-### Provas e Projeto
-- Prova 1 - HTML - 
-- Prova 2 - HTML e CSS -
-- Prova Final - HTML e CSS -
-- Projeto Final - HTML e CSS - 
+### Provas
+- [Prova 1 - HTML](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Provas/Prova%2001/index.html)
+- [Prova 2 - HTML e CSS](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Provas/Prova%2002/index.html)
+- [Prova Final - HTML e CSS](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Provas/Prova%20Final/index.html)
+
+### Projeto Final
+- [Projeto Final - HTML e CSS](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Projeto%20Final/index.html)
 
 ### Exercícios extras
-- Atividade de Revisão de Formulários - 
-- Atividade de Revisão para Prova -
-- Atividade de Revisão pré Prova -
+- [Atividade de Revisão de Formulários](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Exercicios_extras/Revisao%20Formularios/index.html)
+- [Atividade de Revisão para Prova](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Exercicios_extras/Revisao%20Prova/index.html)
+- [Atividade de Simulado para Prova](https://victorhugosdev.github.io/Projeto_Web_Estastico_IFTM/Exercicios_extras/Simulado%20Prova/index.html)
