@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    background-color: #222222;
+}
+
+nav{
+    background-color: #000991;
+    border-bottom:5px solid #FDF31A;
+    list-style: none;
+}
+
+header ul{
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header nav a:link, header nav a:visited{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    background-color: #FDF31A;
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container > div{
+    width: 100%;
+    padding: 20px;
+}
+
+section{
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+section p{
+    text-align: justify;
+    margin: 15px 0px;
+}
+
+.introducao img{
+    width: 100%;
+}
+
+.introducao h1{
+    color: red;
+}
+
+.celulares{
+    text-align: center;
+}
+
+.celulares h2{
+    color: blue;
+    cursor: pointer;
+}
+
+.celulares h2:hover{
+    color: red;
+}
+
+.sobreNos img{
+    width: 70%;
+}
+
+.sobreNos a:link, .sobreNos a:visited{
+    color: blue;
+}
+
+.sobreNos ul li{
+    margin: 10px 0px;
+}
+
+.faleConosco h2{
+    color: orange;
+}
+
+section button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+section summary{
+    text-align: left;
+    color: orangered;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
