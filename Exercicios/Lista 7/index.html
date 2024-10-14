@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Cadastro de Clientes</h1>
+    <p style="color: red;">Todos os campos são de preenchimento obrigatório</p>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome:</label>
+        <br>
+        <input id="nome" type="text" placeholder="Nome completo" required>
+        <br><br>
+        <label for="dtNasc">Data de nascimento:</label>
+        <br>
+        <input id="dtNasc" type="date" required>
+        <br><br>
+        <label>Sexo:</label>
+        <br>
+        <input type="radio" name="sexo" id="masc" value="masculino" required><label for="masc">Masculino</label>
+        <input type="radio" name="sexo" id="femi" value="feminino " required><label for="femi">Feminino</label>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Informações de contato</legend>
+        <label for="email">Email:</label>
+        <br>
+        <input id="email" type="email" required>
+        <br><br>
+        <label for="telefone">Telefone celular:</label>
+        <br>
+        <input id="telefone" type="tel" maxlength="9" placeholder="Apenas números (máx: 9)" required>
+        <br><br>
+        <label for="web">Website pessoal/profissional:</label>
+        <br>
+        <input type="url" id="web">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Localização</legend>
+        <label for="endereco">Endereço:</label>
+        <br>
+        <input type="text" id="endereco" required>
+        <br><br>
+        <label for="num">Número:</label>
+        <br>
+        <input id="num" type="number" min="1" max="9999" placeholder="(Valor entre 1 e 9999)" required style="width: 150px;">
+        <br><br>
+        <label for="cidade">Cidade:</label>
+        <br>
+        <input id="cidade" type="text" required>
+        <br><br>
+        <label for="estado">Estado:</label>
+        <br>
+        <select name="estado" id="estado" required>
+            <option value="" disabled selected>Selecione</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+    </fieldset>
+        <br>
+        <!-- Seção de Botões-->
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+
+</body>
+
+</html>
