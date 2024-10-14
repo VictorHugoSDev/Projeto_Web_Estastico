@@ -1,0 +1,452 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #181818;
+  font-family: "Noto Serif Display", serif;
+}
+
+/*menu*/
+
+.divTopo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  padding: 10px 0px 0px 10px;
+  transition: transform 0.5s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.imgTopo {
+  width: 100%;
+  height: 250px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  padding-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  transition: color 0.5s ease;
+}
+
+.menu li a:hover {
+  background-image: linear-gradient(90deg, #12c2e9, #ef32d9);
+  -webkit-text-fill-color: transparent;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  gap: 10px;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+
+footer a:hover {
+  color: #ff6a22;
+}
+
+.linkSoundcloud {
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+}
+
+/*página index*/
+
+/* configuracoes main */
+main {
+  font-family: "Noto Sans", sans-serif;
+  background-image: url("../img/Gaudi-esque Surreal Fantasia.jpg"),
+    url("../img/Gaudi-esque Surreal Fantasia-invertida.jpg");
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 30%;
+  background-attachment: fixed;
+  background-color: black;
+  width: 100%;
+}
+
+main section {
+  width: 1200px;
+  margin: auto;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+main section:nth-of-type(odd) {
+  background-color: #181818;
+}
+
+main section:nth-of-type(even) {
+  background-color: rgb(20, 17, 17);
+}
+
+/* configuracoes container */
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container > div {
+  width: 100%;
+  padding: 20px;
+}
+
+/* configuracoes dos textos */
+
+p {
+  padding: 10px 0px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.3;
+  hyphens: auto;
+}
+
+h2 {
+  text-align: left;
+  padding: 10px 5px;
+  text-transform: uppercase;
+}
+
+p:hover {
+  color: #ef32d9;
+}
+
+h2:hover {
+  color: #12c2e9;
+}
+
+h3 {
+  text-decoration: underline;
+  padding: 15px 0px;
+  font-size: 22px;
+}
+
+h4 {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+h3:hover {
+  color: rgb(25, 253, 25);
+}
+
+h4:hover{
+  color: #001DFF;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #b6ff00;
+}
+
+button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  text-transform: uppercase;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: underline;
+  background: linear-gradient(90deg, #12c2e9, #ef32d9);
+}
+
+.imgPaises {
+  width: 28px;
+  height: auto;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* configuracoes da pagina index */
+
+section:nth-of-type(1) > div {
+  padding: 15px;
+}
+
+.containerVertentes p {
+  height: 170px;
+}
+
+.festivais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.festivais img {
+  width: 500px;
+  height: auto;
+}
+
+.artistas {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.artistas img {
+  width: 300px;
+  height: auto;
+}
+
+.artistas p {
+  height: 200px;
+}
+
+/* configuracoes pagina origem */
+
+.historia {
+  background-image: url("../img/baixados.jpg"),
+    url("../img/baixados-invertido.jpg");
+}
+
+.imgHistoria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fotos {
+  width: 30%;
+  height: 300px;
+}
+
+.expansao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.expansao > div {
+  flex: 1;
+  min-width: 300px;
+  padding: 10px;
+}
+
+.expansao > div > h3 {
+  text-align: center;
+  height: 80px;
+}
+
+.expansao > div > p:nth-of-type(even) {
+  height: 300px;
+}
+
+.expansao > div > a {
+  font-size: 12px;
+}
+
+.imgExpansao {
+  width: 100%;
+  height: 200px;
+}
+
+/* configuracoes pagina vertentes */
+
+.vertentes {
+  background-image: url("../img/Psytrance\ Goddess\ of\ Color-invertido.jpg"),
+    url("../img/Psytrance\ Goddess\ of\ Color.jpg");
+}
+
+.vertentes > div {
+  flex: 1;
+  min-width: 300px;
+  padding: 10px;
+}
+
+.vertentes ul:hover {
+  color: #fe0034;
+}
+
+.vertentes h4 {
+  text-decoration: underline;
+}
+
+.vertentes h4:hover {
+  color: #ff4901;
+}
+
+.vertentes li {
+  list-style: none;
+  padding: 3px 0px;
+}
+
+.vertentes a {
+  display: block;
+  padding: 5px 0px;
+}
+
+summary{
+  color: #b6ff00;
+  cursor: pointer;
+}
+
+/* confirguracoes tamanho do bloco da pagina vertentes */
+
+.explicacao{
+  height: 300px;
+}
+
+.explicacaoFull{
+  height: 200px;
+}
+
+.explicacaoOutros{
+  height: 190px;
+}
+
+/* configuracoes pagina festivais */
+
+.festivaisPag{
+  background-image: url("../img/Tantalizing Transcendora.jpg"),
+    url("../img/Tantalizing Transcendora-invertido.jpg");
+}
+
+.festivaisSecao{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.festivaisSecao > div{
+  width: 100%;
+  text-align: center;
+}
+
+.festivaisPag img {
+  width: 500px;
+  height: auto;
+}
+
+.festivaisPag button{
+  margin: 20px 0px 40px 0px;
+}
+
+/* configuracoes pagina artistas */
+
+.artistasPag{
+  background-image: url("../img/Taran Tikula.jpg"),
+    url("../img/Taran Tikula-invertido.jpg");
+}
+
+.buttonArtistas{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nacionais img, .internacionais img{
+    width: 100%;
+    height: auto;
+}
+
+.containerArtistas{
+  display: flex;
+  align-items: center;
+  gap: 20px;  
+}
+
+.textoArtistas{
+  flex: 2;
+  max-width: 50%;
+}
+
+.textoArtistas h2{
+  padding: 5px 0px;
+}
+
+.textoArtistas h4, .textoArtistas p{
+  padding: 8px 12px;
+}
+
+.imgArtistas{
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.imgArtistas img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nacionais > .container > div > p, 
+.internacionais > .container > div > p{
+ height: 250px;
+}
