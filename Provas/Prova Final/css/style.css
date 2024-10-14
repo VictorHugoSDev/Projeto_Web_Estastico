@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #F2CD87;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header nav a:link, header nav a:visited{
+    display: inline-block;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 5px solid #F2CD87;
+}
+
+header nav a:hover{
+    border-top: 5px solid black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+}
+
+.container > div{
+    width: 100%;
+    padding: 20px;
+
+}
+
+p{
+    line-height: 1.6em;
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+h2{
+    color: orangered;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.apresentacao{
+    background-color: black;
+}
+
+section{
+    padding-bottom: 60px;
+}
+
+.rolland{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px;
+    background-color: white;
+    border-radius: 50px;
+    border: 15px solid orange;
+}
+
+.rolland > div{
+    width: 100%;
+    padding: 20px;
+}
+
+.rolland img{
+    width: 80%;
+    margin-left: 60px;
+}
+
+.rolland p{
+    padding: 25px 0px;
+}
+
+#produtos{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+#produtos p{
+    text-align: center;
+}
+
+#pacotes{
+    background-color: #DBDBDB;
+}
+
+#mala{
+    margin: 50px 0px;
+}
+
+.container > .imgMala{
+    width: 30%;
+}
+
+.imgMala > img{
+    margin-left: 40px;
+}
+
+#videos{
+    background-color: #FCE8C8;
+}
+
+#videos h2{
+    text-transform: initial;
+    margin-top: 40px;
+}
+
+section button{
+    background-color: orangered;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+summary{
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: orange;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
