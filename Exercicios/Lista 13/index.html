@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        ul{
+            text-align: center;
+            font-family: "Oswald", sans-serif;
+            list-style-type: none;
+            background-color: black;
+        }
+
+        li{
+            display: inline-block;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .menuFacebook, .menuInstagram, .menuYoutube, .menuGoogle, .menuTwitter{
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            width: 90px;
+            height: 30px;
+            background-repeat: no-repeat;
+            background-position: center 10px;
+            padding-top: 45px;
+            border-bottom: 3px solid black;
+        }
+        .menuFacebook{
+            background-image: url('imagens/faceBlack.png');
+        }
+        .menuFacebook:hover{
+            background-image: url('imagens/face.png');
+            cursor: pointer;
+            border-bottom: 3px solid #3B5998;
+        }
+        .menuFacebook:hover a{
+            color: #3B5998;
+        }
+        .menuInstagram{
+            background-image: url('imagens/instaBlack.png');
+        }
+        .menuInstagram:hover{
+            background-image: url('imagens/insta.png');
+            cursor: pointer;
+            border-bottom: 3px solid #9F1E97;
+        }
+        .menuInstagram:hover a{
+            color: #9F1E97;
+        }
+
+        .menuYoutube{
+            background-image: url('imagens/youtubeBlack.png');
+        }
+        .menuYoutube:hover{
+            background-image: url('imagens/youtube.png');
+            cursor: pointer;
+            border-bottom: 3px solid #F61C0D;
+        }
+
+        .menuYoutube:hover a{
+            color:#F61C0D;
+        }
+        
+        .menuGoogle{
+            background-image: url('imagens/mapsBlack.png');
+        }
+        .menuGoogle:hover{
+            background-image: url('imagens/maps.png');
+            cursor: pointer;
+            border-bottom: 3px solid #1081E0;
+        }
+        
+        .menuGoogle:hover a{
+            color:#1081E0;
+        }
+        .menuTwitter{
+            background-image: url('imagens/twitterBlack.png');
+        }
+
+        .menuTwitter:hover{
+            background-image: url('imagens/twitter.png');
+            cursor: pointer;
+            border-bottom: 3px solid #55ACEE;
+        }
+        
+        .menuTwitter:hover a{
+            color:#55ACEE;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="menuFacebook"><a href="" class="">Facebook</a></li>
+            <li class="menuInstagram"><a href="">Instagram</a></li>
+            <li class="menuGoogle"><a href="">Google Maps</a></li>
+            <li class="menuTwitter"><a href="">Twitter</a></li>
+            <li class="menuYoutube"><a href="">Youtube</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
