@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: arial;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;;
+    background-color: #080F72;
+}
+
+.menu li{
+    padding: 25px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+header img{
+    width: 100%;
+    height: 250px;
+}
+
+main section{
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+main section:nth-of-type(odd){
+    background-color: rgb(226, 224, 224);
+}
+
+main section:nth-of-type(even){
+    background-color: white;
+}
+
+main section h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+main section p{
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+.destaque{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main section button{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnPreto{
+    background-color: black;
+}
+
+.btnAzul{
+    background-color: darkblue;
+}
+
+main section button:hover{
+    background-color: orangered;
+}
+
+main section:nth-of-type(2) img{
+    width: 35px;
+    height: 35px;
+}
+
+main section h2{
+    margin: 20px 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container > div {
+    width: 100%;
+    padding: 20px;
+}
+
+.servico img{
+    width: 90%;
+}
+
+.servico p{
+    height: 90px;
+}
+
+.compromisso{
+    width: 50%;
+}
+
+.imgCompromisso{
+    width: 50%;
+}
+
+.imgCompromisso img{
+    width: 100%;
+    margin-top: 35px;
+    height: 400px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.compromisso h2{
+    text-align: left;
+}
