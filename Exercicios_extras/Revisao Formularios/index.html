@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="txtNome">Nome</label>
+        <input id="txtNome" type="text" placeholder="Insira nome completo" required>
+        <br><br>
+
+        <label for="txtSenha">Senha:</label>
+        <input id="txtSenha" type="password" placeholder="de 5 a 8 caracteres">
+        <br><br>
+
+        <label for="txtDataNasc">Data de Nascimento:</label>
+        <input id="txtDataNasc" type="date">
+        <br><br>
+
+        <label for="txtNro">Número:</label>
+        <input id="txtNro" type="number" min="2" max="9998" step="2" placeholder="2 a 9998">
+        <br><br>
+
+        <fieldset>
+            <legend>Email e Site</legend>
+            <label for="txtEmail">Email:</label>
+            <input id="txtEmail" type="email" placeholder="email@gmail.com" required>
+            <br><br>
+
+            <label for="txtSite">Site:</label>
+            <input id="txtSite" type="url" placeholder="http\\google.com">
+        </fieldset>
+
+        <label for="txtEstado">Estado</label>
+        <select id="txtEstado">
+            <option value="">Minas Gerais</option>
+            <option value="">Rio de Janeiro</option>
+            <option value="">São Paulo</option>
+            <option value="">Goais</option>
+        </select>
+        <br><br>
+
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" id="masc"><label for="masc">Masculino</label>
+        <input type="radio" name="sexo" id="femi"><label for="femi">Feminino</label>
+        <br><br>
+
+        <label>Linguagens de programação:</label>
+        <br>
+        <input type="checkbox" id="java"><label for="java">Java</label>
+        <br>
+        <input type="checkbox" id="javascript"><label for="javascript">JavaScript</label>
+        <br>
+        <input type="checkbox" id="python"><label for="python">Python</label>
+        <br>
+        <input type="checkbox" id="c++"><label for="c++">C++</label>
+        <br><br>
+
+        <!-- Seção de Botões-->
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+
+</html>
